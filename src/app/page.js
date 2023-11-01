@@ -16,7 +16,7 @@ app.get("/api", (request, response) => {
 
 export default function Home() {
   return (
-    <main>Hello world
+    <main>Hello TdA
     </main>
   )
 }
