@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 FROM node:lts as dependencies
 WORKDIR /tda
 COPY package.json ./
