@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import {response} from "express";
 import api from './api.js';
 const express = require('express');
@@ -14,8 +14,6 @@ app.get("/api", (request, response) => {
   response.send(status);
 });
 
-=======
->>>>>>> 2f07a4f3ed41a2f193f36f8e59484089ee5e3241
 export default function Home() {
   return (
     <main>Hello world
