@@ -7,7 +7,7 @@ type ResponseData = {
 
 export default function api(
 	req: NextApiRequest,
-	res: NextApiResponse<ResponseData>
+	res: NextApiResponse
 ) {
     res.status(200).json({"secret":"the cake is a lie"})
 }
