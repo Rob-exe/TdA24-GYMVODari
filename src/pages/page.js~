@@ -1,0 +1,5 @@
+import ReactDOM from "react-dom"; 
+import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import Api from "./pages/api"; 
+export default function App() {   return (     <BrowserRouter>       <Routes>         <Route path="/" element={<Layout />}>           <Route index element={<Home />} />           <Route path="blogs" element={<Blogs />} />           <Route path="contact" element={<Contact />} />           <Route path="*" element={<NoPage />} />         </Route>       </Routes>     </BrowserRouter>   ); } ReactDOM.render(<App />, document.getElementById("root"));
+export default function Home() { return ( <main>Hello TdA </main>) }
